@@ -1,1 +1,1 @@
-# freeCodeCamp-24-JS-Algorithms-Data-Structures_Split_a_String_into_an_Array_Without_Punctuation
+This program using the split method inside the splitify function to split str into an array of words. The function returns the array containing no punctuation.
