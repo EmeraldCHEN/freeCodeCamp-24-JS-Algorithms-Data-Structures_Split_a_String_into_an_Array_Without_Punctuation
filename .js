@@ -1,13 +1,15 @@
 function splitify(str) {
   
-  let newStr = str.replace(/\W/g, ' ');
+    let newStr = str.replace(/\W/g, ' ');
   
-  return newStr.split(" ");
+    return newStr.split(" ");
  
-  // return str.split(/\W/); // Or simply split the string to create a new array of words since strings are immutable
+   // Or simply split the string to create a new array of words since strings are immutable
+  
+   // return str.split(/\W/); 
 }
 
-splitify("Hello World,I-am coding"); // Returns ["Hello", "World", "I", "am", "coding"]
+splitify("Hello World,I-am-coding"); // Returns ["Hello", "World", "I", "am", "coding"]
 
 
 // Retrieved from
